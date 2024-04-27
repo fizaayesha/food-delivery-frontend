@@ -43,6 +43,7 @@ export default function HomePage() {
 
   return (
     <>
+    Order food from any canteen of the University
       <Search />
       <Tags tags={tags} />
       {foods.length === 0 && <NotFound linkText="Reset Search" />}
