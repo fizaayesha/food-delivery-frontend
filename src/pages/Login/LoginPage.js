@@ -57,7 +57,7 @@ export default function LoginPage() {
 
           <div className={classes.register}>
             New user? &nbsp;
-            <Link to={`/register${returnUrl ? '?returnUrl=' + returnUrl : ''}`}>
+            <Link to={`https://food-delivery-web-app-sand.vercel.app/register${returnUrl ? '?returnUrl=' + returnUrl : ''}`}>
               Register here
             </Link>
           </div>

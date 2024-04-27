@@ -47,7 +47,7 @@ export default function OrdersPage() {
             <Link
               key={state}
               className={state == filter ? classes.selected : ''}
-              to={`/orders/${state}`}
+              to={`https://food-delivery-web-app-sand.vercel.app/orders/${state}`}
             >
               {state}
             </Link>

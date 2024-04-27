@@ -7,6 +7,6 @@ export default function AuthRoute({ children }) {
   return user ? (
     children
   ) : (
-    <Navigate to={`/login?returnUrl=${location.pathname}`} replace />
+    <Navigate to={`https://food-delivery-web-app-sand.vercel.app/login?returnUrl=${location.pathname}`} replace />
   );
 }

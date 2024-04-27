@@ -8,7 +8,7 @@ export default function Thumbnails({ foods }) {
     <ul className={classes.list}>
       {foods.map(food => (
         <li key={food.id}>
-          <Link to={`/food/${food.id}`}>
+          <Link to={`https://food-delivery-web-app-sand.vercel.app/food/${food.id}`}>
             <img
               className={classes.image}
               src={`${food.imageUrl}`}
