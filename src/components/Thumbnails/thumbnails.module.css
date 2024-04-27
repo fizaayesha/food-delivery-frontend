@@ -16,7 +16,7 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  color: #e72929;
+  color: rgb(252, 81, 200);
 }
 
 .image {
@@ -39,7 +39,7 @@
 }
 
 .favorite.not {
-  color: grey;
+  color: rgb(252, 81, 200);
 }
 
 .stars {
@@ -57,7 +57,7 @@
   background-color: whitesmoke;
   display: inline-block;
   font-size: 0.8rem;
-  color: grey;
+  color: rgb(252, 81, 200);
   margin-right: 0.3rem;
   padding: 0 0.5rem;
   margin-top: 0.2rem;
