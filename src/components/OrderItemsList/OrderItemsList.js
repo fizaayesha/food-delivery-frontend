@@ -15,7 +15,7 @@ export default function OrderItemsList({ order }) {
         {order.items.map(item => (
           <tr key={item.food.id}>
             <td>
-              <Link to={`https://food-delivery-web-app-sand.vercel.app/food/${item.food.id}`}>
+              <Link to={`/food/${item.food.id}`}>
                 <img src={item.food.imageUrl} />
               </Link>
             </td>
